@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DunkZone</title>
+  <link rel="icon" href="https://images.vexels.com/content/153527/preview/basketball-ball-colored-stroke-icon-5bdc9e.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+
+       *{box-sizing:border-box;
+         padding:0;
+         margin:0;
+         }
+
+    body{font-family:'Times New Roman',Times,serif;
+         background-color:rgb(0, 0, 0);
+         text-align:center;
+         padding-top:3.7cm;
+         font-size:40px;
+         color:white;
+         }
+
+  .textH{font-family:'Bebas Neue',sans-serif;
+         color:rgb(40, 40, 40);
+         font-size:2cm; 
+         }
+
+  #head1{background-color:rgb(255, 255, 255);
+         justify-content:center;
+         position:fixed;
+         display:flex;
+         height:2.3cm;
+         width:100%;
+         top:0;
+         }
+
+   #head2{background-color:rgb(190, 85, 0);
+          justify-content:center;
+          align-items:center;
+          text-align:center;
+          position:fixed;
+          color:black;
+          display:flex;
+          height:40px;
+          width:100%;
+          top:8.9%;
+         }
+
+    .logo{background-image:url(https://images.vexels.com/content/153527/preview/basketball-ball-colored-stroke-icon-5bdc9e.png);
+          background-repeat:no-repeat;
+          background-size:cover;
+          border-radius:90px;
+          height:2.3cm;
+          width:2.3cm;
+         }
+
+   
+
+.nav-link{font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+          color:rgb(201, 201, 201);
+          text-decoration:none;
+          padding:5px 15px;
+          transition:0.4s;
+          font-size:25px;
+          }
+
+.nav-link:hover{color:rgb(255, 251, 251);}
+
+ .catalogo{justify-content:center;
+           display:flex;
+           gap:20px;
+           }
+
+  .produto{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           background-color:rgb(22, 22, 22);
+           border-radius:15px;
+           text-align:center; 
+           margin:20px auto;
+           color:white;
+           height:8cm;
+           width:8cm; 
+          }
+
+.produto img{border-radius:5px;
+             height:290px;             
+             width:300px;
+            }
+
+ .produto h3{font-size:30px;
+             color:white;
+             margin:10px 0;
+            }           
+
+  .produto p{font-size:20px;
+             color:white;
+            }
+
+.produto button{background-color:whitesmoke;
+                border-radius:10;
+                font-size:15px;
+                cursor:pointer;
+                border:none;
+                height:40px;
+                width:100px;
+               }
+               
+.produto button:hover{background-color: rgb(133, 133, 133);}               
+ 
+    footer{background-color:rgb(73, 73, 73);
+           justify-content:center;
+           align-items:center;
+           font-size:20px;
+           position:fixed;
+           color:white;
+           height:1.4cm;
+           display:flex;
+           width:100%;
+           bottom:0;
+          }
+
+ </style>
+
+</head>
+<body>
+  
+<div id="head1">
+
+<div class="textH">Dunk</div>
+
+<div class="logo"></div>
+
+<div class="textH">Zone</div>
+
+</div>
+
+
+<div id="head2">
+<a href class="nav-link">Início</a>
+<a href="Tenis.html" class="nav-link">Tênis</a>
+<a href="Jogadores.html" class="nav-link">Jogadores</a>  
+</div>
+Catálogo de Produtos
+<div class="textH"><span style="color:white;">Mais vendidos</span></div>
+
+<div class="catalogo">
+
+
+  <div class="produto">
+
+  <img src="https://sportness.com.br/cdn/shop/files/21cm-2023-10-25T001341.835.png?v=1698204137&width=1080">
+  <h3>Lebron XXI</h3>
+  <p>Compre agora</p>
+  <button onclick="VerMais()">Ver mais</button>
+</div>
+
+
+
+
+<div class="produto">
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVczDwZ5cwLK6Z2TQNmGR4HRR1pPyfhI8xNg&s">
+  <h3>Wilson NCAA</h3>
+  <p>Compre agora</p>
+  <button onclick="VerMais3()">Ver mais</button>
+
+</div>
+<div class="produto">
+
+  <img src="https://imgnike-a.akamaihd.net/360x360/089120NDA1.jpg">
+  <h3>KD17</h3>
+  <p>Compre agora</p>
+  <button onclick="VerMais2()">Ver mais</button>
+
+</div>
+
+
+
+</div>
+<br><br><br>
+<div class="catalogo">
+
+<div class="produto">
+
+  <img src="https://static.netshoes.com.br/produtos/tenis-nike-precision-7-unissex/06/JD8-8402-006/JD8-8402-006_zoom1.jpg?ts=1747396985">
+  <h3>Precison 7</h3>
+  <p>Compre agora</p>
+  <button onclick="VerMais4()">Ver mais</button>
+
+</div>
+
+<div class="produto">
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EycnfBBevXhEc_K-Sym3KhFQzlJwOqEBbw&s">
+  <h3>Curry 3Z7</h3>
+  <p>Compre agora</p>
+  <button onclick="VerMais5()">Ver mais</button>
+
+
+
+</div>
+
+</div>
+
+<script>
+    function VerMais(){
+      window.location.href="LebronXXI.html"
+    }
+    function VerMais2(){
+      window.location.href="KD17.html"
+    }
+    function VerMais3(){
+      window.location.href="Bola.html"
+    }
+     function VerMais4(){
+      window.location.href="Precision7.html"
+    }
+     function VerMais5(){
+      window.location.href="Curry3Z7.html"
+    }
+  </script>
+
+
+<br><br><br><br>
+
+<footer>
+  ©  2025  <strong> DunkZone</strong>. Elevando seu jogo dentro e fora das quadras. Todos os direitos reservados.
+</footer>
+</body>
+</html>
